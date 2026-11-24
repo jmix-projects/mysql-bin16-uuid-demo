@@ -1,5 +1,7 @@
 # Jmix Demo: MySQL Binary16 UUID
 
+> See [jmix-projects/mysql-bin16-uuid-jmix3-demo](https://github.com/jmix-projects/mysql-bin16-uuid-jmix3-demo) for the demo based on Jmix 3.
+
 This project demonstrates usage of `binary(16)` column for storing UUID values (primary and foreign keys) on MySQL.
 
 [DemoMysqlDbmsFeatures](src/main/java/com/company/demo/dbms/DemoMysqlDbmsFeatures.java) bean defines the `eclipselink.target-database` property pointing to the `DemoMySQLPlatform` class. This bean is used for MySQL databases because of the value returned from `getTypeAndVersion()` method. 
